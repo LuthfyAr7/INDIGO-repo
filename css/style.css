@@ -419,74 +419,6 @@ section {
 }
 
 /*--------------------------------------------------------------
-  # Featured Services
-  --------------------------------------------------------------*/
-.featured-services .icon-box {
-    padding: 30px;
-    position: relative;
-    overflow: hidden;
-    background: #fff;
-    box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
-    transition: all 0.3s ease-in-out;
-    border-radius: 8px;
-    z-index: 1;
-}
-
-.featured-services .icon-box::before {
-    content: '';
-    position: absolute;
-    background: #d9f1f2;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    top: 100%;
-    transition: all 0.3s;
-    z-index: -1;
-}
-
-.featured-services .icon-box:hover::before {
-    background: #3fbbc0;
-    top: 0;
-    border-radius: 0px;
-}
-
-.featured-services .icon {
-    margin-bottom: 15px;
-}
-
-.featured-services .icon i {
-    font-size: 48px;
-    line-height: 1;
-    color: #1977cc;
-    transition: all 0.3s ease-in-out;
-}
-
-.featured-services .title {
-    font-weight: 700;
-    margin-bottom: 15px;
-    font-size: 18px;
-}
-
-.featured-services .title a {
-    color: #111;
-}
-
-.featured-services .description {
-    font-size: 15px;
-    line-height: 28px;
-    margin-bottom: 0;
-}
-
-.featured-services .icon-box:hover .title a,
-.featured-services .icon-box:hover .description {
-    color: #fff;
-}
-
-.featured-services .icon-box:hover .icon i {
-    color: #fff;
-}
-
-/*--------------------------------------------------------------
   # About
   --------------------------------------------------------------*/
 .about .icon-boxes h4 {
@@ -778,94 +710,45 @@ section {
 }
 
 /*--------------------------------------------------------------
-  # Appointments
+  # JASA YANG DI TAWARKAN 
   --------------------------------------------------------------*/
-.appointment .php-email-form {
-    width: 100%;
-}
-
-.appointment .php-email-form .form-group {
-    padding-bottom: 8px;
-}
-
-
-.appointment .php-email-form input,
-.appointment .php-email-form textarea,
-.appointment .php-email-form select {
-    border-radius: 0;
-    box-shadow: none;
-    font-size: 14px;
-    padding: 10px !important;
-}
-
-.appointment .php-email-form input:focus,
-.appointment .php-email-form textarea:focus,
-.appointment .php-email-form select:focus {
-    border-color: #1977cc;
-}
-
-.appointment .php-email-form input,
-.appointment .php-email-form select {
-    height: 44px;
-}
-
-.appointment .php-email-form textarea {
-    padding: 10px 12px;
-}
-
-.appointment .php-email-form button[type="submit"] {
-    background: #1977cc;
-    border: 0;
-    padding: 10px 35px;
-    color: #fff;
-    transition: 0.4s;
-    border-radius: 50px;
-}
-
-.appointment .php-email-form button[type="submit"]:hover {
-    background: #3fbbc0;
-}
-
-/*--------------------------------------------------------------
-  # Doctors
-  --------------------------------------------------------------*/
-.doctors {
+.jasa {
     background: #fff;
 }
 
-.doctors .member {
+.jasa .member {
     position: relative;
     box-shadow: 0px 2px 15px rgba(44, 73, 100, 0.08);
     padding: 30px;
     border-radius: 10px;
 }
 
-.doctors .member .pic {
+.jasa .member .pic {
     overflow: hidden;
     width: 180px;
     border-radius: 50%;
 }
 
-.doctors .member .pic img {
+.jasa .member .pic img {
     transition: ease-in-out 0.3s;
 }
 
-.doctors .member:hover img {
+.jasa .member:hover img {
     transform: scale(1.1);
 }
 
-.doctors .member .member-info {
+.jasa .member .member-info {
     padding-left: 30px;
 }
 
-.doctors .member h4 {
+.jasa .member h4 {
     font-weight: 700;
     margin-bottom: 5px;
     font-size: 20px;
     color: #2c4964;
 }
 
-.doctors .member span {
+.jasa .member span {
     display: block;
     font-size: 15px;
     padding-bottom: 10px;
@@ -873,7 +756,7 @@ section {
     font-weight: 500;
 }
 
-.doctors .member span::after {
+.jasa .member span::after {
     content: '';
     position: absolute;
     display: block;
@@ -884,19 +767,19 @@ section {
     left: 0;
 }
 
-.doctors .member p {
+.jasa .member p {
     margin: 10px 0 0 0;
     font-size: 14px;
 }
 
-.doctors .member .social {
+.jasa .member .social {
     margin-top: 12px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
 
-.doctors .member .social a {
+.jasa .member .social a {
     transition: ease-in-out 0.3s;
     display: flex;
     align-items: center;
@@ -907,17 +790,17 @@ section {
     background: #a0bcd5;
 }
 
-.doctors .member .social a i {
+.jasa .member .social a i {
     color: #fff;
     font-size: 16px;
     margin: 0 2px;
 }
 
-.doctors .member .social a:hover {
+.jasa .member .social a:hover {
     background: #3fbbc0;
 }
 
-.doctors .member .social a+a {
+.jasa .member .social a+a {
     margin-left: 8px;
 }
 
